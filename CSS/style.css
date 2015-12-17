@@ -64,12 +64,24 @@ header {
   #social {
     float: right;
     margin: 50px 10px 0 0;
-  }
+    }
 
   #social li {
     float: left;
     margin: 0 2px 0 2px;
   }
+
+  #social a {
+    display: block;
+    width: 37px;
+    height: 37px;
+    background-image:url(../img/sprite.png);
+  }
+
+  a.facebook { background-position: -1px -2px;}
+  a.twitter { background-position: 120px -2px;}
+  a.linkedin { background-position: 80px -2px;}
+  a.google { background-position: 39px -2px;}
 
    header nav {
     clear: left;
@@ -263,7 +275,7 @@ main h2 {
 }
 
 .formulaire:nth-child(2n) {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .formulaire label {

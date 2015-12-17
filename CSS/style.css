@@ -256,44 +256,43 @@ main h2 {
 }
 
 .formulaire {
+  width: 45%;
   display: inline-block;
-  width: 47%;
-  margin: 0 25px 20px 0;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+.formulaire:nth-child(2n) {
+  margin-right: 0;
 }
 
 .formulaire label {
   display: block;
-  margin-bottom: 5px;
 }
 
 .formulaire input {
-  margin-bottom: 10px;
-  padding: 5px 0 5px 2px;
+  font-size: 1em;
+  margin: 8px 0;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 6px;
   border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: #ccc;
-}
-
-.formulaire:nth-child(2n){
-  margin-right: 0;
+  border: 1px solid #ccc;
 }
 
 .formulaire textarea {
-  height: 133px;
-  width: 90%;
-  border-color: #ccc;
-}
-
-label + input {
+  font-size: 1em;
+  border: 1px solid #ccc;
+  margin: 8px 0;
   width: 100%;
+  height: 151px;
+  border-radius: 5px;
 }
 
-form > input {
+input[type="submit"]{
+  border: none;
   background-color: #EF5411;
-  border-radius: 5px;
-  border-style: none;
   color: white;
-  height: 35px;
-  width: 100px;
+  border-radius: 5px;
+  padding: 10px 20px;
 }

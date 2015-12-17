@@ -1,0 +1,292 @@
+@font-face {
+  font-family: "arvo";
+  font-weight: normal;
+  src: url("font/Arvo-Regular.ttf");
+}
+@font-face {
+  font-family: "arvo";
+  font-weight: bold;
+  src: url("font/Arvo-Bold.ttf");
+}
+@font-face {
+  font-family: "arvo";
+  font-style: italic;
+  src: url("font/Arvo-Italic.ttf");
+}
+
+body {
+  background-color: #343F50;
+  font-family: arvo, sans-serif;
+}
+/*Header*/
+header {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+  border-radius: 10px;
+}
+
+  header > img {
+    width: 140px;
+    float: left;
+    margin: 20px;
+    border-radius: 140px;
+  }
+
+  header div {
+    float: left;
+    margin: 50px 0 0 0;
+  }
+
+  div h1 {
+        font-size: 2.25em;
+    color: #EF5411;
+  }
+
+  div h2 {
+    font-size: 1.375em;
+    color: #ccc;
+    margin-top: 5px;
+  }
+
+  h1 strong {
+    font-weight: bold;
+  }
+  /* méthode absolute
+  #social {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }*/
+
+  #social {
+    float: right;
+    margin: 50px 10px 0 0;
+  }
+
+  #social li {
+    float: left;
+    margin: 0 2px 0 2px;
+  }
+
+   header nav {
+    clear: left;
+    background-color: #ddd;
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
+
+  #menu li {
+   display: inline;
+  }
+
+  #menu a {
+    display: inline-block;
+    padding: 20px 35px 20px 35px;
+    color: #EF5411;
+    text-decoration: none;
+  }
+
+  #menu a:hover {
+    background-color: grey;
+    color: #fff;
+  }
+
+  #menu a.active {
+    background-color: #EF5411;
+    color: #fff;
+  }
+/*MAIN*/
+main {
+  background-color: white;
+  width: 760px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+
+main p {
+  text-align: justify;
+  font-size: 1.125em;
+  line-height: 1.875em;
+  text-indent: 20px;
+  margin-bottom: 10px;
+}
+
+div.divmain {
+  width: 70%;
+  float: left;
+  border-right: 2px solid #ccc;
+  padding-right: 20px;
+}
+
+main aside {
+  width: 25%;
+  height: 500px;
+  float: left;
+  margin-left: 15px;
+}
+
+div.clear {
+  clear: left;
+}
+/*FOOTER*/
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #7186a7;
+}
+
+/*CCOMPTENCES*/
+/*SECTION*/
+
+main div {
+  width: 740px;
+  margin: auto;
+}
+
+main section {
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 30px;
+  /*margin-right: 70px;*/
+  color: #343F50;
+}
+
+main section:nth-child(odd) {
+  margin-right: 144px;
+}
+main section h3 {
+  font-size: 1.25em;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+}
+main section > ul > li {
+  padding: 8px 20px;
+  text-indent: 20px;
+  font-size: .875em;
+}
+
+main section > ul > li:nth-child(odd) {
+  background-color: #eee;
+  position: relative;
+}
+
+  li > ul {
+    float: right;
+  }
+
+    li > ul > li {
+      width: 8px;
+      height: 8px;
+      background-color: #ccc;
+      display: inline-block;
+      border-radius: 8px;
+      margin: 2px;
+    }
+
+
+    li > ul >li.on {
+      background-color: #EF5411;
+    }
+
+/*PARCOURS*/
+
+article {
+  margin-bottom: 40px;
+}
+article h2 {
+  font-size: 1.5em;
+  color: #343F50;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+article h3 {
+  color: #aaa;
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+article p {
+  margin-left: 20px;
+  text-indent: 0px;
+  font-size: .875em;
+  line-height: 1.43em;
+}
+
+/*PORTFOLIO*/
+
+#portfolio li {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+}
+
+#portfolio li:nth-child(4n) {
+  margin-right: 0;
+}
+
+#portfolio img {
+  width: 160px;
+}
+
+#portfolio a {
+  display: block;
+  border-radius: 10px;
+  border : 1px #ccc solid;
+  padding: 5px;
+}
+
+#portfolio a:hover {
+  border-color: #EF5411;
+}
+
+/*CONTACT*/
+
+main h2 {
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.formulaire {
+  display: inline-block;
+  width: 47%;
+  margin: 0 20px 20px 0;
+}
+
+.formulaire label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formulaire input {
+  margin-bottom: 10px;
+  padding: 5px 0 5px 2px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #ccc;
+}
+
+.formulaire textarea {
+  height: 133px;
+  width: 100%;
+  border-color: #ccc;
+}
+
+label + input {
+  width: 100%;
+}
+
+form > input {
+  background-color: #EF5411;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  height: 35px;
+  width: 100px;
+}

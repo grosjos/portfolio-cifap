@@ -71,7 +71,7 @@ header {
     margin: 0 2px 0 2px;
   }
 
-  #social a {
+  a.sprite {
     display: block;
     width: 37px;
     height: 37px;

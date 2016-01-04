@@ -5,6 +5,12 @@
     <title>Josselin Gréaud - Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Add fancyBox part 1 (la balsie scriptg est une fin de body)-->
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </head>
 
   <body>
@@ -15,10 +21,10 @@
         <h2>Chef de projet web</h2>
       </div>
       <ul id="social">
-        <li><a href="https://www.facebook.com/josselin.greaud" target="_blank" class="facebook"></a></li>
-        <li><a href="https://twitter.com/grosjo" target="_blank" class="twitter"></a></li>
-        <li><a href="https://fr.linkedin.com/in/josselin-greaud-38769046" target="_blank" class="linkedin"></a></li>
-        <li><a href="https://plus.google.com/u/0/101211708120822137414/about" target="_blank" class="google"></a></li>
+        <li><a href="https://www.facebook.com/josselin.greaud" target="_blank" class="sprite facebook"></a></li>
+        <li><a href="https://twitter.com/grosjo" target="_blank" class="sprite twitter"></a></li>
+        <li><a href="https://fr.linkedin.com/in/josselin-greaud-38769046" target="_blank" class="sprite linkedin"></a></li>
+        <li><a href="https://plus.google.com/u/0/101211708120822137414/about" target="_blank" class="sprite google"></a></li>
       </ul>
 
       <nav>
@@ -36,43 +42,43 @@
       <div class="divmain">
         <ul id="portfolio">
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 1" />
             </a>
           </li>
-          <li> <a href="img/portfolio/groshibou.jpg"><img src="img/portfolio/hibou.jpg" alt="photo de hibou 2" />        </a> </li>
+          <li> <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg"><img src="img/portfolio/hibou.jpg" alt="photo de hibou 2" />        </a> </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 3" />
             </a>
           </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 4" />
             </a>
           </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 5" />
             </a>
           </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 6" />
             </a>
           </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 7" />
             </a>
           </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 8" />
             </a>
           </li>
           <li>
-            <a href="img/portfolio/groshibou.jpg">
+            <a class="fancybox" rel="group" href="img/portfolio/groshibou.jpg">
               <img src="img/portfolio/hibou.jpg" alt="photo de hibou 8" />
             </a>
           </li>
@@ -85,6 +91,10 @@
       <div class="clear"></div>
     </main>
     <footer>&copy; 2015 Josselin Gréaud - Tous droits réservés</footer>
+
+
+    <!-- Add fancyBox part 2-->
+
 
   </body>
 </html>
